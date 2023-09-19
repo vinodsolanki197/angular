@@ -1,0 +1,11 @@
+<!-- <p>if-else works!</p>
+<h1 *ngIf="show">if condition</h1>
+<ng-template>
+    else condition
+</ng-template> -->
+
+<div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'">Red Color</h1>
+    <h1 *ngSwitchCase="'blue'">Blue Color</h1>
+    <h1 *ngSwitchCase="'green'">Green Color</h1>
+</div>
